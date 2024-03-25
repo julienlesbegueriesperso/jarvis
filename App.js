@@ -61,7 +61,6 @@ export default function App() {
         console.log(JSON.stringify(response, null, 4));
         Speech.speak(response.body);
       })
-      
     })
     
     
